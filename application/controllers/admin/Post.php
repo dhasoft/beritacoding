@@ -74,9 +74,9 @@ class Post extends CI_Controller
                 'draft' => $this->input->post('draft')
             ];
 
-            $updated = $this->article_model->insert($article);
+            $saved = $this->article_model->insert($article);
 
-            if ($updated) {
+            if ($saved) {
                 $this->session->set_flashdata('message', 'Article was created');
                 return redirect('admin/post');
             }
