@@ -1,0 +1,5 @@
+aplikasi beritacoding ini hasil dari belajar di petanikode.com
+aplikasi ini dibuat menggunakan:
+> framework codeigniter 3
+> xampp portable
+> database MySQL
